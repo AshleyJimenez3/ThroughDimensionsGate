@@ -25,11 +25,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3400924269162235521}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: -9.93}
+  m_LocalPosition: {x: 0, y: 0, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7768750729859056417}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &8263850902582446022
 MonoBehaviour:
@@ -46,7 +46,7 @@ MonoBehaviour:
   DoorPrefabPriority: 0
   ConnectorPrefabWeights: []
   BlockerPrefabWeights: []
-  AvoidRotatingDoorPrefab: 0
+  AvoidRotatingDoorPrefab: 1
   AvoidRotatingBlockerPrefab: 0
   ConnectorSceneObjects: []
   BlockerSceneObjects: []
@@ -85,7 +85,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6657592341368927213}
   m_LocalRotation: {x: -0, y: 0.0000029504295, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 9.93}
+  m_LocalPosition: {x: 0, y: 0, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7768750729859056417}
@@ -106,7 +106,7 @@ MonoBehaviour:
   DoorPrefabPriority: 0
   ConnectorPrefabWeights: []
   BlockerPrefabWeights: []
-  AvoidRotatingDoorPrefab: 0
+  AvoidRotatingDoorPrefab: 1
   AvoidRotatingBlockerPrefab: 0
   ConnectorSceneObjects: []
   BlockerSceneObjects: []
@@ -148,10 +148,10 @@ Transform:
   m_GameObject: {fileID: 7768750729763575077}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7768750729859056417}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7768750729763575081
 MeshFilter:
@@ -244,8 +244,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6953882703656809842}
   - {fileID: 7768750729763575080}
+  - {fileID: 6953882703656809842}
   - {fileID: 920529126522396660}
   - {fileID: 6495353617108474572}
   - {fileID: 1484295984163515372}
@@ -334,13 +334,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8519128145501776664}
-  m_LocalRotation: {x: 0, y: 0.70711315, z: -0, w: -0.70710045}
-  m_LocalPosition: {x: -9.96, y: 0, z: -0.003}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7768750729859056417}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 269.999, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!114 &8874827932459400749
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -356,7 +356,7 @@ MonoBehaviour:
   DoorPrefabPriority: 0
   ConnectorPrefabWeights: []
   BlockerPrefabWeights: []
-  AvoidRotatingDoorPrefab: 0
+  AvoidRotatingDoorPrefab: 1
   AvoidRotatingBlockerPrefab: 0
   ConnectorSceneObjects: []
   BlockerSceneObjects: []
@@ -395,7 +395,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8720376585697168294}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 9.96, y: 0, z: -0.001}
+  m_LocalPosition: {x: 5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7768750729859056417}
@@ -416,7 +416,7 @@ MonoBehaviour:
   DoorPrefabPriority: 0
   ConnectorPrefabWeights: []
   BlockerPrefabWeights: []
-  AvoidRotatingDoorPrefab: 0
+  AvoidRotatingDoorPrefab: 1
   AvoidRotatingBlockerPrefab: 0
   ConnectorSceneObjects: []
   BlockerSceneObjects: []
